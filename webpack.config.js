@@ -36,6 +36,6 @@ module.exports = {
     },
     devServer: {
         contentBase: './src',
-        publicPath: '/output'
+        publicPath: '/docs'
     }
 };
