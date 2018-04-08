@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaiser1644/PHubCommentGen.git"
+    "url": "git+https://github.com/kaiser1644/phub-comment-gen.git"
   },
   "author": "kaiser1644",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaiser1644/PHubCommentGen/issues"
+    "url": "https://github.com/kaiser1644/phub-comment-gen/issues"
   },
-  "homepage": "https://github.com/kaiser1644/PHubCommentGen#readme",
+  "homepage": "https://github.com/kaiser1644/phub-comment-gen#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
