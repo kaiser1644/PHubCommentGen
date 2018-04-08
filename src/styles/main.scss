@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: #f90;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.preview {
+    margin-top: 10em;
+}
+
+.avatar {
+    margin-right: 1em;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    float: left;
+    margin-right: 1em;
+}
+
+.avatar img {
+    height: 60px;
+    width: 60px;
+}
+
+.date::before {
+    background: url(../assets/redesign-stream-ui.png) -4px -4px no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    content: '';
+    margin-right: 3px;
+}
+
+.date {
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+    position: relative;
+    float: left;
+    margin-left: 2%;
+}
+
+.userName {
+    color: rgb(255, 153, 0);
+    font-size: 1.25em;
+    position: relative;
+    float: left;
+}
+
+.comment {
+    display: block;
+    float: left;
+}
