@@ -3,7 +3,7 @@ import React from 'react';
 export default class Preview extends React.Component {
     render() {
         return (
-            <div className="preview">
+            <div className="preview container">
                 <div className="avatar" ref={this.avatar}>
                     <img src={this.props.avatarData} alt="Avatar preview..." id="imgAvatar" />
                 </div>

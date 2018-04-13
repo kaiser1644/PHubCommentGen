@@ -1,10 +1,14 @@
 export const actionNames = {
-    REFRESH_AVATAR: "REFRESH_AVATAR"
+    REFRESH_USER_NAME: "REFRESH_USER_NAME",
+    REFRESH_AVATAR: "REFRESH_AVATAR",
+    REFRESH_COMMENT: "REFRESH_COMMENT",
+    REFRESH_DAYS: "REFRESH_DAYS"
 };
 
-export const refreshAvatar = (avatarData) => {
+export const refresh = (data, actionName) => {
     return {
-        type: actionNames.REFRESH_AVATAR,
-        avatarData
+        data,
+        type: actionName
     }
-};
+}
+

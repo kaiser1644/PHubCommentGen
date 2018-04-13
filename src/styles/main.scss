@@ -1,22 +1,46 @@
-body {
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
+
+.mainContainer {
+    width: 60%;
+    margin-top: 10%;
+}
+
+.formRow {
+    margin-bottom: $spacing;
+}
+
+#inputUserName {
+    width: 200px;
+}
+
+#inputDays {
+    width: 50px;
+}
+
+#header {
+    margin-bottom: 100px;
+}
+
+.preview {
     background-color: black;
     color: #f90;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 12px;
-}
-
-.preview {
     margin-top: 10em;
+    padding: 50px;
+    position: relative;
+    float: left;
 }
 
 .avatar {
     margin-right: 1em;
     height: 60px;
     width: 60px;
+    margin-right: 1em;
     position: relative;
     float: left;
-    margin-right: 1em;
 }
 
 .avatar img {
@@ -49,6 +73,9 @@ body {
 }
 
 .comment {
-    display: block;
+    color: rgb(184, 184, 184);
     float: left;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 560px;
 }
